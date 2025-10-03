@@ -8,6 +8,7 @@ Once credentials.json is in place, run the app. You will be prompted to log in w
 ## what is the format of the credentials.json 
 The credentials.json file is a Google OAuth 2.0 client configuration file that you download from the Google Cloud Console. Here's the format:
 
+```json
 {
   "installed": {
     "client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
@@ -19,6 +20,7 @@ The credentials.json file is a Google OAuth 2.0 client configuration file that y
     "redirect_uris": ["http://localhost"]
   }
 }
+```
 
 How to get this file:
 
